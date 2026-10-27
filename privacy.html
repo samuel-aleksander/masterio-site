@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>masterio privacy policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p><a href="index.html">masterio</a></p>
+<h1>Privacy policy</h1>
+<p class="date">Last updated October 27, 2026</p>
+
+<p>masterio is a personal tool that runs on its owner's own Mac. It has no other users and no
+servers. This policy describes what it does with Google account data.</p>
+
+<h2>What it accesses</h2>
+<ul>
+<li><strong>Gmail, read-only</strong> (<code>gmail.readonly</code>): to search and read the
+owner's email. masterio cannot send, delete, label or change any email.</li>
+<li><strong>Google Drive files it creates</strong> (<code>drive.file</code>): Docs and Sheets
+that masterio itself created. Google blocks it from every other file.</li>
+<li><strong>Google Sheets</strong> (<code>spreadsheets</code>): used only to add rows to the one
+spreadsheet the owner picks.</li>
+</ul>
+
+<h2>Where data is kept</h2>
+<p>Sign-in tokens are stored in the macOS Keychain on the owner's Mac. Email content, notes and
+drafts are stored only in a private folder on that Mac. Nothing is stored on any server run for
+masterio, because there is none.</p>
+
+<h2>Who else sees it</h2>
+<p>To answer the owner's requests, the text of selected emails is sent to the AI model the owner
+has chosen: OpenAI's Codex (with training on this data turned off) or a model running locally on
+the Mac. Nothing else is shared. Data is never sold, never used for advertising and never shared
+with anyone else.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>masterio's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Removing access</h2>
+<p>Access can be revoked at any time at
+<a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. Running
+<code>masterio mail disconnect</code> also deletes the saved token from the Keychain.</p>
+</main>
+</body>
+</html>
